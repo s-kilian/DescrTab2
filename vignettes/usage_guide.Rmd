@@ -139,7 +139,7 @@ descr(dat, "Species", group_labels=list(setosa="My custom group label"), var_lab
 ```
 
 ## Confidence intervals for two group comparisons
-For 2-group comparisons, decrtab automatically calculates confidence intervals for differences in effect measures:
+For 2-group comparisons, `descr` automatically calculates confidence intervals for differences in effect measures:
 
 ```{r, results='asis'}
 descr(dat, "animal")
