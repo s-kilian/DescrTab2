@@ -81,7 +81,7 @@ This graphic below describes the test choice algorithm employed in the \texttt{D
 
 The default argument is \texttt{test\_options=list(paired=F, nonparametric=F, exact=F)}. In a scenario with 2 groups, this will give produce Welch's t-test for numerical variables and a chi-squared test for categorical variables with 2 categories.
 
-Test choices can be manually overwritten. E.g. if you want to calculate Boschlo's test only for the gender variable and use a chi-squared test (default) for everything else, you can request this by supplying the following argument: \\
+Test choices can be manually overwritten. E.g. if you want to calculate Boschloo's test only for the gender variable and use a chi-squared test (default) for everything else, you can request this by supplying the following argument: \\
 \texttt{var\_options=list(gender=list(test="Welchs chi-squared test"))}.
 
 \vspace{1.5cm}
